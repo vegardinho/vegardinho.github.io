@@ -1,0 +1,122 @@
+html {
+  min-height: 100%;
+/*  background-image: url(../img/hovedbygget_upclose.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+*/
+/*  background-color: rgb(0, 0, 0, 0.6); */  
+  background-color: #363420;
+  background-blend-mode: multiply;
+
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 60px;
+}
+
+#content-wrapper {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  top: 50%;
+  position: absolute;
+  transform: translate(0, -50%);
+}
+
+video {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  right: 50%;
+  top: 0;
+  z-index: -99;
+  transform: translate(50%, 0);
+  filter: brightness(65%);
+/*  min-width: 100vw;
+  min-height: 100vh; */
+  min-height: 100vh;
+  min-width: 100vw; 
+}
+
+a {
+  text-decoration: none;
+  color: #144c93;
+}
+
+.profile-img {
+  position: inline-block;
+  height: 4em;
+  width: 4em;
+/*  margin-top: 10rem;
+*/  box-shadow: 0px 0px 36px 5px rgba(0,0,0,0.49);
+}
+
+.rounded {
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.title {
+  color: #de4e4e;
+  font-size: 1em;
+  text-shadow: 0 0 20px black;
+  margin-top: .3em;
+  margin-bottom: .3em;
+}
+
+.subtitle {
+  text-shadow: 0 0 8px black;
+  color: #e2e2e2;
+  font-size: .5em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30%;
+  margin-right: 30%;
+  justify-content: space-evenly;
+  font-size: .5em;
+}
+
+.social-icon {
+  color: #999797;
+  font-size: 1.32em;
+  text-shadow: 0 0 15px black;
+}
+
+.social-icon:hover {
+  color: #de4e4e;
+}
+
+@media (max-width: 736px) {
+  body {
+    font-size: 30px;
+  }
+
+  video {
+    right: unset;
+    transform: unset;
+    left: -66%;
+  }
+
+  #content-wrapper {
+    top:  44%;
+  }
+
+  .social {
+    font-size: 1em;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .subtitle {
+   text-shadow: none;
+}

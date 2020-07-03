@@ -19,6 +19,21 @@ body {
   font-size: 60px;
 }
 
+#notify-block {
+  font-size: .3em;
+  display: none;
+  padding: 20px 10px;
+  /*background: #D30000;*/
+  background: #de4e4e;
+  text-align: center;
+  /*font-weight: bold;*/
+  color: black;
+  border-radius: 27px;
+  width: 80vw;
+  margin: auto;
+  margin-top: 1%;
+}
+
 #content-wrapper {
   width: 100%;
   padding: 0;
@@ -80,8 +95,8 @@ a {
 .social {
   display: flex;
   flex-direction: row;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 30vw;
+  margin-right: 30vw;
   justify-content: space-evenly;
   font-size: .5em;
 }

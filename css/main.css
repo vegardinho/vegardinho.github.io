@@ -43,14 +43,14 @@ body {
   transform: translate(0, -50%);
 }
 
-video {
+video, .background {
   position: fixed;
   padding: 0;
   margin: 0;
   right: 50%;
   top: 0;
   z-index: -99;
-  transform: translate(50%, 0);
+  transform: translate(50%, 0%);
   filter: brightness(65%);
 /*  min-width: 100vw;
   min-height: 100vh; */
@@ -61,6 +61,7 @@ video {
 a {
   text-decoration: none;
   color: #144c93;
+  color: #de4e4e;
 }
 
 .profile-img {
@@ -109,6 +110,7 @@ a {
 
 .social-icon:hover {
   color: #de4e4e;
+  color: #144c93;
 }
 
 @media (max-width: 736px) {

@@ -51,7 +51,7 @@ video, .background {
   top: 0;
   z-index: -99;
   transform: translate(50%, 0%);
-  filter: brightness(65%);
+  filter: brightness(55%);
 /*  min-width: 100vw;
   min-height: 100vh; */
   min-height: 100vh;
@@ -88,7 +88,7 @@ a {
 .subtitle {
   text-shadow: 0 0 8px black;
   color: #e2e2e2;
-  font-size: .5em;
+  font-size: .4em;
   margin-top: .5em;
   margin-bottom: .5em;
 }
@@ -103,14 +103,30 @@ a {
 }
 
 .social-icon {
-  color: #999797;
+  color: #1b57a6;
   font-size: 1.32em;
   text-shadow: 0 0 15px black;
 }
 
+.social-icon-black {
+  text-shadow: 0 0 15px rgb(72, 72, 72);
+}
+
+.fb-icon {
+  color: #3867a4;
+}
+
+.gh-icon {
+  color: #000000;
+}
+
+.mail-icon {
+  color: #953b3b;
+}
+
 .social-icon:hover {
   color: #de4e4e;
-  color: #144c93;
+  color: #999797;
 }
 
 @media (max-width: 736px) {

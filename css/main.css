@@ -61,8 +61,11 @@ video,
 
 a {
   text-decoration: none;
-  color: #144c93;
-  color: #de4e4e;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .profile-img {

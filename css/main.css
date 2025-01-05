@@ -53,7 +53,7 @@ video,
   top: 0;
   z-index: -99;
   transform: translate(50%, 0%);
-  filter: brightness(55%);
+  filter: brightness(80%);
   /*  min-width: 100vw;
   min-height: 100vh; */
   min-height: 100vh;
